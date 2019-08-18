@@ -1,0 +1,21 @@
+{
+    "name": "janfish/phalcon-seed",
+    "description": "The Phalcon Framework.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robert",
+            "email": "robert@janfish.cn"
+        }
+    ],
+    "keywords": [
+        "Phalcon"
+    ],
+    "require": {
+        "ext-phalcon": ">=3.4.1",
+        "predis/predis": "^1.1",
+        "janfish/async-caller": "^1.1"
+    }
+}
+
