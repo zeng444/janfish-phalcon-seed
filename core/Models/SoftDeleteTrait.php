@@ -1,17 +1,16 @@
 <?php
 
-namespace Application\Core\Components\Mvc\Model;
+namespace Application\Core\Models;
 
 use Phalcon\Mvc\Model\Behavior\SoftDelete;
 
 /**
+ * Author:Robert
  *
- * @author  Robert
- *
- * Class ErrorManager
- * @package Application\Admin\Components\Mvc\Model
+ * Trait SoftDeleteModel
+ * @package Application\Core\Models
  */
-trait SoftDeleteModel
+trait SoftDeleteTrait
 {
 
     /**

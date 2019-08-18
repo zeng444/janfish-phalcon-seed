@@ -15,7 +15,8 @@
     "require": {
         "ext-phalcon": ">=3.4.1",
         "predis/predis": "^1.1",
-        "janfish/async-caller": "^1.1"
+        "janfish/async-caller": "^1.1",
+        "php": ">=7.1.0"
     }
 }
 

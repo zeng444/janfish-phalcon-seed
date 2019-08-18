@@ -34,11 +34,6 @@ class Captcha implements InjectionAwareInterface
      */
     const REGISTER_MODEL = 'REGISTER';
 
-    /**
-     *
-     */
-    const FORGOTTEN_PASSWORD_MODEL = 'FORGOTTEN_PASSWORD';
-
 
     /**
      * Author:Robert
@@ -47,7 +42,6 @@ class Captcha implements InjectionAwareInterface
      */
     public static $modelMap = [
         self::REGISTER_MODEL => '注册验证',
-        self::FORGOTTEN_PASSWORD_MODEL => '忘记密码',
     ];
 
     /**

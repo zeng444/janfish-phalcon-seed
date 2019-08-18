@@ -5,18 +5,17 @@ namespace Application\Core\Models;
 use Phalcon\Mvc\Model\Behavior\Timestampable;
 use Phalcon\Mvc\Model;
 use Phalcon\Db\Exception as DbException;
-use Application\Core\Components\Mvc\Model\SoftDeleteModel;
 
 /**
- *
- * @author Robert
+ * Author:Robert
  *
  * Class BaseModel
+ * @package Application\Core\Models
  */
 class BaseModel extends Model
 {
 
-    use SoftDeleteModel;
+    use SoftDeleteTrait;
 
     /**
      * 取得模型第一条错误
