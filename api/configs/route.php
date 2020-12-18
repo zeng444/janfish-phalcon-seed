@@ -34,7 +34,11 @@ if (isset($pathInfo[1])) {
     }
     $app->get('/', function () use ($app) {
         //        echo $app['view']->render('index');
-        return $app->apiResponse->success(["version" => "1.0", "timestamp" => (string)time(),'pm'=>'stock.game']);
+        return $app->apiResponse->success([
+            "version" => "1.0",
+            "timestamp" => (string)time(),
+            'pm' => $app->config->application->name
+        ]);
     });
 }
 
