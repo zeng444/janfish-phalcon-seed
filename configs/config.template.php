@@ -28,7 +28,7 @@ return new \Phalcon\Config([
         'database' => 12, //固定存储
     ],
     'cache' => [
-        'hostname' => '@@REDIS_SERVER@@',
+        'host' => '@@REDIS_SERVER@@',
         //        'prefix' => '',
         'port' => '@@REDIS_PORT@@',
         'persistent' => false,
