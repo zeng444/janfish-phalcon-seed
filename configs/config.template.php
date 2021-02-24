@@ -52,7 +52,7 @@ return new \Phalcon\Config([
     ],
     'application' => [
         'name' => 'YOU_APPLICATION_NAME',
-        'uploadFileDir' => API_PATH.'public/files/',
+        'uploadFileDir' => ROOT_PATH.'api/public/files/',
         'modelsDir' => CORE_PATH.'models/',
         'frontendUrl' => 'http://YOUR_LOCAL_DOMAIN/',
         'baseUrl' => 'http://YOUR_LOCAL_DOMAIN/',
